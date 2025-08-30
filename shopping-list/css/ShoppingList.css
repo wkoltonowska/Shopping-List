@@ -1,0 +1,39 @@
+.add-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 0em 2em 0em;
+  background-color: #fff7ed;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  width: 20em;
+}
+.add-product__input {
+  font-family: "Livvic", sans-serif;
+  color: #D97904;
+  width: 100%;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+}
+.add-product__input:focus {
+  outline: none;
+}
+.add-product__btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.plus-img {
+  width: 2em;
+  height: 2em;
+}
+
+@media (min-width: 768px) {
+  .add-product {
+    width: 25em;
+  }
+}/*# sourceMappingURL=ShoppingList.css.map */

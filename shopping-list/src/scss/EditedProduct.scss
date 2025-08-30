@@ -1,0 +1,44 @@
+@use "./colors" as *;
+
+.edit-product {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5em 1em;
+	background-color: $orange;
+	border-radius: 0.5em;
+	&__input {
+		font-size: 1rem;
+		padding: 0.7em;
+		font-family: "Livvic", sans-serif;
+		background-color: $light-orange;
+		color: $orange;
+		border: none;
+		border-radius: 0.5em;
+		width: 15em;
+	}
+	&__btn {
+		padding: 0.2em;
+		margin: 0.5em;
+		cursor: pointer;
+		background: none;
+		border: none;
+	}
+	&__img {
+		width: 1.5em;
+		height: 1.5em;
+	}
+}
+
+@media (min-width: 992px) {
+	.edit-product {
+		&__img {
+			width: 2em;
+			height: 2em;
+		}
+	}
+}

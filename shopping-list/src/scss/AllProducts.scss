@@ -1,0 +1,57 @@
+@use "./colors" as *;
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	font-family: "Livvic", sans-serif;
+}
+
+.all-products {
+	list-style: none;
+	font-size: 1rem;
+	color: $dark-blue;
+	width: 25em;
+
+	&__li {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.5em 1.2em;
+		margin: 0.5em;
+		background-color: $light;
+		border-radius: 0.5em;
+	}
+
+	&__btn {
+		background: none;
+		border: none;
+		margin-left: 0.5em;
+		cursor: pointer;
+		padding: 0.2em;
+	}
+	&__bought {
+		text-decoration: line-through;
+	}
+}
+
+.done-btn {
+	&__img {
+		width: 1.5em;
+		height: 1.5em;
+	}
+}
+
+.delete-btn {
+	&__img {
+		width: 1.5em;
+		height: 1.5em;
+	}
+}
+
+.edit-btn {
+	&__img {
+		width: 1.8em;
+		height: 1.8em;
+	}
+}

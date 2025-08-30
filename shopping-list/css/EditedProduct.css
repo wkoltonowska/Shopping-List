@@ -1,0 +1,40 @@
+.edit-product {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em 1em;
+  background-color: #D97904;
+  border-radius: 0.5em;
+}
+.edit-product__input {
+  font-size: 1rem;
+  padding: 0.7em;
+  font-family: "Livvic", sans-serif;
+  background-color: #FFF7ED;
+  color: #D97904;
+  border: none;
+  border-radius: 0.5em;
+  width: 15em;
+}
+.edit-product__btn {
+  padding: 0.2em;
+  margin: 0.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.edit-product__img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+@media (min-width: 992px) {
+  .edit-product__img {
+    width: 2em;
+    height: 2em;
+  }
+}/*# sourceMappingURL=EditedProduct.css.map */
