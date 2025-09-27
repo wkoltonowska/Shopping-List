@@ -4,7 +4,7 @@ Aplikacja webowa stworzona w React, która pozwala tworzyć listę zakupów.
 ## 1. Uruchomienie projektu
 - Sklonuj repozytorium:
  ```bash
- git clone https://github.com/twoj-login/shopping-list.git
+git clone https://github.com/twoj-login/shopping-list.git
  ```
 - Przejdź do folderu projektu:
 ```bash
