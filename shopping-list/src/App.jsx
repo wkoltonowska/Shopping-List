@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ShoppingList from "./componets/ShoppingList";
 import AllProducts from "./componets/AllProducts";
-import "../css/App.css";
+import "../../css/App.css";
 
 import vegetables from "./img/vegetables.png";
 import carrotandapple from "./img/carrotandapple.png";

@@ -29,6 +29,10 @@
 		margin-left: 0.5em;
 		cursor: pointer;
 		padding: 0.2em;
+		color: $dark-blue;
+		&:hover {
+			color: $dark-blue-hover;
+		}
 	}
 	&__bought {
 		text-decoration: line-through;

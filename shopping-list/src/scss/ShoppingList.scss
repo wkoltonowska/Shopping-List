@@ -35,6 +35,10 @@
 .plus-img {
 	width: 2em;
 	height: 2em;
+	color: $orange;
+	&:hover {
+		color: $orange-hover;
+	}
 }
 
 @media (min-width: 768px) {
